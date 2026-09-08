@@ -1,0 +1,343 @@
+.interes1{
+    border: solid;
+    background-color:aqua;
+    width: 20%;
+    justify-content: space-between;
+display:inline-flex;    
+button {display: inline;;}
+button:first-child{
+background-color: aliceblue;
+float: left
+    }
+button:nth-child(1){
+background-color: aliceblue;
+float: right;
+justify-content: flex-end;
+    }
+
+} 
+ .interes2{
+    border: solid;
+    background-color:#87cefa;
+    width: 20%;
+    justify-content: space-between;
+    display:inline-flex;
+button {display: inline;;}
+button:first-child{
+background-color: aliceblue;
+float: right;
+    }
+button:nth-child(1){
+background-color: aliceblue;
+float: right;
+    }
+
+} 
+
+.header-buttons{
+    background-color: #87cefa;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+     gap: 20px;  /* khoảng cách giữa các nut */
+        
+}
+/* chỗ này hỏi chát gpt */
+/* cai nay la nut them san pham */
+.addproduct {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px;
+  background: #f5f6f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.addproduct a {
+  text-decoration: none;
+  color: white;
+  background: red;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.25s;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+/* cho nay trang lay api chinh sua thong so & gia xe */
+.carslist {
+  width: 40%;
+
+    
+    
+    justify-content: space-between;
+    flex-direction:column; 
+    border-radius:5px
+;
+  
+    
+}
+
+.car-items {
+  background-color:#ffff80;
+  margin-top:5px;
+  border:solid 1px;
+  display: flex;
+  justify-content: space-between;
+  button {
+  width: 50px;
+  height: 20px;
+}
+}
+/* phần list vàng trong bảng Link */
+.carlistTitle {
+display: flex;
+flex-direction: row;
+
+ text-decoration: none;
+p {justify-content: space-between;
+width: 70%;
+padding: 10px;} 
+
+}
+.car-items input {
+  margin-top: 5px;
+  width: 70px;
+  height: 20px;
+  padding: 4px 8px;}
+
+.car-items:hover {
+  background-color: lightgoldenrodyellow;
+  margin: 2px;
+
+}
+
+.car-actions button {
+  width: 30px;
+  height: 30px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px;
+  border-radius: 6px;
+  background: #f1f1f1;
+  cursor: pointer;
+
+  font-size: 18px;
+}
+.car-actions button:hover {
+  background: #ddd;
+}
+
+/* nut them xe moi */
+.addproduct a:hover {
+  background: orangered;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.addproduct a.active {
+  background: red
+}
+
+.product-content {
+  padding: 25px 30px;
+  min-height: 400px;
+  background: #fff;
+}
+/* chỗ này có vẻ phần header chính của trang */
+.header-buttons a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.header-buttons a:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-2px);
+}
+.tableloan{
+    width: 60%;
+    display: flex;
+border: 2px solid black;
+background-color:white;
+li {list-style-type:none;
+    background-color: aqua;
+    ul {
+        background-color: azure;
+        li{border: 1px solid blueviolet
+        }
+    ;
+    }
+}
+}
+.tableloan .headerloan {
+    background-color:#C572E8;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 10px;
+}
+.form-addproduct{
+  p {width: 80px;
+  height: 30px;
+border:solid 1px;
+background-color:#76a0ef}
+  input {
+    margin-top:15px;
+    height: 30px;
+    width: 10%;
+  }
+  display:flex;
+  background-color: blueviolet;
+color:white
+}
+.form-addproduct button {
+  margin-top:15px;
+  width: 50px;
+  height: 30px;
+}
+/* thông số kỹ thuật  parent,allfaher  ở Component A ấy*/
+.parent{
+  
+  display: flex;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color:#e0ffff;
+  input {margin-bottom:10px;margin-right:5px}
+  padding: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.ParentProduct{
+  margin-top: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  padding: 50px;
+   border: 1px solid blue;
+
+}
+.sondescription{
+   background-color: #f7f9fa;
+   border: 1px solid blue;
+}
+.specification{
+  background-color: #EFFBE9;
+  border: 2px double burlywood;
+  padding: 5px
+}
+.Children {
+  margin-top: 20px;
+  padding: 5px;
+  
+  padding: 10px;
+  border-radius: 10px;
+
+   background-color: #f7f9fa;
+   border: 1px solid blue;
+}
+
+
+.father-children {
+  display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 30px;
+}
+/* slider carousel */
+.embla {
+  width: 100%;
+  overflow: hidden;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.embla__slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/* font-end client */
+.title-product {
+background-color: #B0E0E6;
+border-radius: 10px;
+padding: 10px;
+}
+/* thông số kỹ thuật */
+ .children {
+  width: 100%;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.children:hover {
+  background-color: #f5f5f5;
+}
+
+/* Phần thông tin chính */
+.children {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 12px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.Titlechildren {
+  grid-column: 1;
+  grid-row: 1;
+
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Nếu có thông tin trực tiếp */
+.info_children {
+  grid-column: 2;
+  grid-row: 1;
+
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Grandchild nằm ở cột bên phải */
+.grandchild {
+ grid-column: 2;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 8px 0;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.titlegrandchild {
+  margin: 0;
+  font-size: 15px;
+  color: #666;
+}
+
+.info_grandchild {
+  margin: 0;
+  font-size: 15px;
+ 
+}

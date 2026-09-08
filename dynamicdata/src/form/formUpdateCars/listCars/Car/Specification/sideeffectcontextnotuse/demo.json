@@ -1,0 +1,15 @@
+{
+    "namecar":"vf5",
+    "version":"plus",
+    "price":"496000000",
+    "Dimension-weight":{
+"description":"Kích thước và trọng lượng",
+"spec":[{"name":"overalldimesion","info":"4755x1850x1790","description":"Kích thước tổng thể"},{"name":"wheelbase","info":"2514",
+"description":"Chiều dài cơ sở"},{"name":"ground clearance","info":"168","description":"Khoảng sáng gầm xe"}]
+    },
+  "Engine-Perfromance":{
+"description":"Động cơ và vận hành",
+"spec":[{"name":"engine","info":[{"name":"type","info":"1 Mottor điện","description":"Loại"},{"name":"max output","info":"100/134","description":"Công suất tối đa (kWW/hp)"},
+{"name":"Max torque","info":"134","description":"Mô men xoắn cực đại"}],"description":"Động cơ"},{"name":"Drive Mode","info":"Eco/Sport","description":"Chế độ lái"},
+{"name":"Drive Train","info":"Cầu trước","description":"Hệ dẫn động"}]
+  }}

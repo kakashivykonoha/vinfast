@@ -1,0 +1,15 @@
+.Header1 {
+
+  text-align: left;
+  color:aliceblue;
+}
+.Header1 button {
+    padding: 10px;
+    margin-left: 20px
+}
+.productheader {
+    margin-top: 5px;
+    display: flex;
+    text-align: justify;
+    border: solid 2px
+}

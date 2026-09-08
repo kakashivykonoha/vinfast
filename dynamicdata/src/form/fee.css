@@ -1,0 +1,7 @@
+.search-result:active {
+    width:20%;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+   
+}

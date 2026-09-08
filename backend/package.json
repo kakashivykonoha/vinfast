@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.48",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.10.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "multer2": "^1.1.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.23.1",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
